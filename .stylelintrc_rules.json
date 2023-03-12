@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "overrides": [{
+    "files": ["*.sass"],
+    "customSyntax": "postcss-sass",
+    "rules": {
+      "no-descending-specificity": null,
+      "no-duplicate-selectors": null,
+      "rule-empty-line-before": null
+    }
+  }]
+}

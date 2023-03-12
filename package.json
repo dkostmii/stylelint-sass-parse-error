@@ -1,0 +1,17 @@
+{
+  "name": "stylelint-sass-parse-error",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint:default": "stylelint \"./src/**\" --config .stylelintrc_default.json",
+    "lint:rules": "stylelint \"./src/**\" --config .stylelintrc_rules.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-sass": "^0.5.0",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1"
+  }
+}
